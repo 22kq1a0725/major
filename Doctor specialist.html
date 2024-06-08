@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Website - Doctor Specializations</title>
+   </head>
+<style>
+    body {
+        background-image: url("back5.jpeg");
+        background-size: cover;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .navbar {
+        background-color: #4CAF50;
+        overflow: hidden;
+    }
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+    }
+    .navbar a:hover {
+        background-color: #45a049;
+    }
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+    .dropdown .dropbtn {
+        cursor: pointer;
+        font-size: 16px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 20px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+    .navbar a, .dropdown .dropbtn {
+        text-decoration: none;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    .dropdown-content a:hover {
+        background-color: #ddd;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .content {
+        padding: 16px;
+    }
+    .doctor-profile {
+        margin-bottom: 32px;
+    }
+    .doctor-profile img {
+        float: left;
+        margin-right: 16px;
+        border-radius: 50%;
+    }
+    .doctor-profile h3 {
+        margin-top: 0;
+    }
+</style>
+<body>
+    <center> <h1>DOCTOR SPECIALISTS</h1></center>
+    <div class="box"></div>
+    <div class="row">
+      <div class="column">
+
+<div class="content">
+    <h3 id="doctor-profiles">Doctor Specializations</h3>
+    <div class="doctor-profile" id="cardiology">
+        <img src="photo1.jpeg" alt="Dr. John Smith" width="100" height="100">
+        <h3>Dr. John Smith</h3>
+        <p><strong>Specialization:</strong> Cardiology</p>
+        <p><strong>Qualifications:</strong> MD, PhD in Cardiology, Fellowship in Interventional Cardiology</p>
+        <p><strong>Experience:</strong> 15 years</p>
+        <p><strong>Biography:</strong> Dr. John Smith is a leading cardiologist with over 15 years of experience in treating heart conditions...</p>
+    </div>
+
+    <div class="doctor-profile" id="neurology">
+        <img src="photo2.jpeg" alt="Dr. Jane Doe" width="100" height="100">
+        <h3>Dr. Jane Doe</h3>
+        <p><strong>Specialization:</strong> Neurology</p>
+        <p><strong>Qualifications:</strong> MD, Fellowship in Neurology</p>
+        <p><strong>Experience:</strong> 10 years</p>
+        <p><strong>Biography:</strong> Dr. Jane Doe specializes in neurological disorders and has a decade of experience in diagnosing and treating patients with complex conditions...</p>
+    </div>
+
+    <div class="doctor-profile" id="pediatrics">
+        <img src="photo3.jpeg" alt="Dr. Alan Brown" width="100" height="100">
+        <h3>Dr. Alan Brown</h3>
+        <p><strong>Specialization:</strong> Pediatrics</p>
+        <p><strong>Qualifications:</strong> MD, Pediatric Residency</p>
+        <p><strong>Experience:</strong> 8 years</p>
+        <p><strong>Biography:</strong> Dr. Alan Brown is a compassionate pediatrician dedicated to providing comprehensive care for children of all ages...</p>
+    </div>
+
+    <div class="doctor-profile" id="emergency">
+        <img src="photo4.jpeg" alt="Dr. Emily White" width="100" height="100">
+        <h3>Dr. Emily White</h3>
+        <p><strong>Specialization:</strong> Emergency Medicine</p>
+        <p><strong>Qualifications:</strong> MD, Fellowship in Emergency Medicine</p>
+        <p><strong>Experience:</strong> 12 years</p>
+        <p><strong>Biography:</strong> Dr. Emily White has extensive experience in emergency care and is highly skilled in handling critical situations...</p>
+    </div>
+</div>
+
+</body>
+</html>
